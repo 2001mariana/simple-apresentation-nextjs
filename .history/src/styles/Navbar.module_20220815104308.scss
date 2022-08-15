@@ -1,0 +1,23 @@
+.navbar {
+    display: flex;
+    background-color: #17428E;
+    padding: 20px 10px;
+  
+  & li {
+    list-style: none;
+  }
+  
+  & a {
+    color: #fff;
+    margin-right: 1em;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  & a:hover, & a:ocus {
+    text-decoration: underline;
+  }
+  
+}
+
+  

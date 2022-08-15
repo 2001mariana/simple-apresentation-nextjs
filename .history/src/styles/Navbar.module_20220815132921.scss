@@ -1,0 +1,35 @@
+.navbar {
+    display: flex;
+    background-color: black;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  & li {
+    list-style: none;
+  }
+  
+  & a {
+    color: #fff;
+    margin-right: 1em;
+    text-decoration: none;
+    transition: 0.3s;
+  }
+
+  & a:hover {
+    text-decoration: underline;
+  }
+  
+  & a.contato-active{
+    color: red;
+    background-color: blue;
+  }
+
+  & a.contato-active{
+    color: red;
+    background-color: blue;
+  }
+}
+
+  

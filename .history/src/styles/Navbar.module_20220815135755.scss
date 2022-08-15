@@ -1,0 +1,33 @@
+.navbar {
+    display: flex;
+    background-color: black;
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  & li {
+    list-style: none;
+  }
+  
+  & a {
+    text-decoration: none;
+  }
+
+  & a:hover {
+    text-decoration: underline;
+  }
+
+  .link {
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: auto 5px;
+  }
+
+  .link:hover {
+    text-decoration: underline;
+  }
+}
+
+  

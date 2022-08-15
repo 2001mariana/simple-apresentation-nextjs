@@ -1,0 +1,30 @@
+.navbar {
+    display: flex;
+    background-color: black;
+    box-shadow: 2px 2px 2px 1px rgba(226, 17, 17, 0.2);
+    padding: 20px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+  & li {
+    list-style: none;
+  }
+  
+  & a {
+    text-decoration: none;
+  }
+
+  .link {
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: auto 5px;
+  }
+
+  .link:hover {
+    text-decoration: underline;
+  }
+}
+
+  
