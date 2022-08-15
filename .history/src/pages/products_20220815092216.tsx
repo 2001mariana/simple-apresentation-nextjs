@@ -1,4 +1,4 @@
-import style from './../styles/Home.module.scss'
+import style from './../styles/index.module.scss'
 
 export default function Products() {
   return (
