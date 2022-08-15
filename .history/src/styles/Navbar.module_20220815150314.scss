@@ -14,14 +14,14 @@
     text-decoration: none;
   }
 
-  & a {
+  .link {
     color: #fff;
     transition: 0.3s;
     cursor: pointer;
     margin: auto 5px;
   }
 
-  & a:hover {
+  &:hover {
     text-decoration: underline;
   }
 }
