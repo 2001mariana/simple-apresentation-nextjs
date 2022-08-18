@@ -1,7 +1,7 @@
 import Link from 'next/link'
 import style from './../styles/Home.module.scss'
 import Lottie from 'lottie-react'
-import ArrowDownnimation from '../assets/animation/arrow-down.json'
+import ArrowDownnimation from '../../assets/animation/arrow-down.json'
 
 export default function FourOhFour() {
   return <>

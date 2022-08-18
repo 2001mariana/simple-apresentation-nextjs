@@ -11,7 +11,7 @@ export default function FourOhFour() {
   <div className={style.Home__animation}>
     <Lottie animationData={ArrowDownnimation} loop={true} />
   </div>
-    <Link href="/">
+    <Link className={style.Home__} href="/">
         Voltar para home
     </Link>
   </>
