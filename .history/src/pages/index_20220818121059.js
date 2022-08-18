@@ -6,6 +6,8 @@ export default function Home() {
     <div className={style.Home}>
       <p>Eu sou a home</p>
     </div>
+    <image  />
+    <img  />
     </>
   )
 }

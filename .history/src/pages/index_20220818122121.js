@@ -1,4 +1,5 @@
 import style from './../styles/Home.module.scss'
+import NextImage from '../assets/image/logo-nextjs.png'
 
 export default function Home() {
   return (
@@ -6,6 +7,9 @@ export default function Home() {
     <div className={style.Home}>
       <p>Eu sou a home</p>
     </div>
+    
+import Lottie from 'lottie-react'
+import ArrowDownnimation from '../assets/animation/arrow-down.json'
     </>
   )
 }
