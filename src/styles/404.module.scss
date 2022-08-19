@@ -1,16 +1,16 @@
 .NotFound {
     text-align: center;
     margin: 0;
+    margin-top: 80px;
     padding: 0;
     font-weight: 700;
     font-size: 24px;
-    color: #e86e42;
-    text-shadow: 0 0 16px #ccf9ff;
+    color: #FFFFFF;
    
 
     &__animation > div {
-        margin: 40px 0;
-        height: 40vh;
+        margin: 30px 0;
+        height: 25vh;
         z-index: 10;
         display: flex;
         justify-content: center;
