@@ -1,18 +1,22 @@
 import Link from 'next/link'
-import style from './../styles/Home.module.scss'
+import style from './../styles/404.module.scss'
 import Lottie from 'lottie-react'
-import ArrowDownnimation from '../assets/animation/arrow-down.json'
+import NotFoundAnimation from '../assets/animation/404.json'
 
 export default function FourOhFour() {
   return <>
-  <div className={style.Home}>
-    <p>Não encontramos resultados para sua busca.</p>
-  </div>
-  <div className={style.Home__animation}>
-    <Lottie animationData={ArrowDownnimation} loop={true} />
-  </div>
-    <Link href="/">
+    <div className={style.NotFound}>
+      <p>Não encontramos resultados para sua busca.</p>
+    </div>
+
+    <div className={style.NotFound__animation}>
+      <Lottie animationData={NotFoundAnimation} loop={true} />
+    </div>    
+
+    <button className={style.NotFound__button}>
+      <Link href="/">
         Voltar para home
-    </Link>
+      </Link>
+    </button>
   </>
 }

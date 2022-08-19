@@ -4,13 +4,6 @@
     padding: 0;
     font-weight: 700;
     font-size: 24px;
-    color: #00008b;
-
-    &__animation > div {
-        height: 20vh;
-        z-index: 10;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
+    color: #fbeaea;
+    text-shadow: 6px 6px 10px #e86e42;
 }
