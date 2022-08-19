@@ -1,0 +1,29 @@
+.navbar {
+    display: flex;
+    background-color: rgb(189, 209, 247);
+    padding: 25px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+ 
+  & li {
+    list-style: none;
+  }
+  
+  & a {
+    text-decoration: none;
+  }
+
+  & a {
+    color: #fff;
+    transition: 0.3s;
+    cursor: pointer;
+    margin: auto 5px;
+  }
+
+  & a:hover {
+    text-decoration: underline;
+  }
+}
+
+  
